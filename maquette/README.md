@@ -17,3 +17,19 @@ Les données et le domaine sont fictifs. Les montants sont indicatifs, sans calc
 Les essais sont conservés dans le stockage local du navigateur lorsqu’il est disponible. Le bouton « Réinitialiser » restaure les données d’exemple. Le fonctionnement ne dépend d’aucune requête vers un service externe. Le nom Cuvée est un nom de travail, sans lien avec l’éditeur ICC Office.
 
 Validation : parcours de navigation, recherche, client, commande, livraison et stock, facture et règlement, volumes de cave, export, persistance et réinitialisation testés avec Chromium ; affichage et navigation mobile vérifiés à 390 px.
+
+## Présentation client
+
+Dans le menu latéral, « Présentation client » ouvre un diaporama de dix diapositives dans un nouvel onglet. Il présente les parcours de la maquette, les bénéfices à évaluer et les étapes proposées pour le projet.
+
+- Navigation : boutons, flèches du clavier, début/fin et plan des diapositives.
+- Plein écran : bouton ou touche **F** ; un bouton permet d’en sortir.
+- Plan : bouton ou touche **O** ; **Échap** pour le fermer.
+- PowerPoint : téléchargement du fichier `.pptx` depuis la barre supérieure, avec notes pour le présentateur.
+- Sur téléphone : lecture adaptée, boutons et balayage horizontal.
+
+Conserver le dossier `presentation/` avec `index.html`, le PowerPoint et ses images `assets/`. Pour un usage hors ligne, extraire le dossier complet avant d’ouvrir la maquette. Aucun hébergement ou service externe n’est nécessaire.
+
+Le générateur `presentation/build_presentation.py` permet de reconstruire le HTML et le PowerPoint à partir des contenus et des captures incluses (Python, `python-pptx` et `Pillow` nécessaires uniquement à la reconstruction).
+
+Validation de cet ajout : ouverture dans un nouvel onglet sur ordinateur et mobile, dix diapositives, navigation clavier/boutons, plan, plein écran, liens de diapositives et téléchargement PowerPoint testés avec Chromium. Le PowerPoint a également été converti pour contrôler visuellement ses dix diapositives.

@@ -10,3 +10,5 @@ La présentation distingue les fonctions annoncées par l’éditeur des amélio
 ## Maquette du logiciel
 
 [Ouvrir la maquette HTML Cuvée](maquette/index.html) — interface interactive et autonome, avec données fictives. Télécharger le fichier puis l’ouvrir dans un navigateur pour l’essayer. [Parcours et fonctionnement](maquette/README.md).
+
+La maquette comprend un onglet [Présentation client](maquette/presentation/index.html), ouvrant un diaporama dans un nouvel onglet, et une [version PowerPoint téléchargeable](maquette/presentation/Cuvee_Presentation_client.pptx).
