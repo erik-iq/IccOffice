@@ -6,3 +6,7 @@ Documents de cadrage préparés le 16 octobre 2026 à partir des contenus public
 - [Relevé documentaire et sources](docs/presentation/Releve_documentaire_ICCOffice.md)
 
 La présentation distingue les fonctions annoncées par l’éditeur des améliorations proposées. Le programme actuel et ses données n’ont pas encore été examinés. Cette proposition indépendante ne constitue pas une offre de l’éditeur.
+
+## Maquette du logiciel
+
+[Ouvrir la maquette HTML Cuvée](maquette/index.html) — interface interactive et autonome, avec données fictives. Télécharger le fichier puis l’ouvrir dans un navigateur pour l’essayer. [Parcours et fonctionnement](maquette/README.md).
